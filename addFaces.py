@@ -3,7 +3,7 @@ import numpy as np
 import os
 import pickle
 
-video = cv2.VideoCapture(0)
+video = cv2.VideoCapture(1)
 faceDetect = cv2.CascadeClassifier('data/haarcascade_frontalface_default.xml')
 
 faces_data = []
